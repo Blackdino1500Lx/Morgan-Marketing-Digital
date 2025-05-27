@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Contáctanos | Morgan Digital Marketing</title>
+    <meta name="description"
+        content="Ponte en contacto con Morgan Digital Marketing. Estamos listos para ayudarte a impulsar tu marca con estrategias digitales efectivas." />
+    <meta name="keywords"
+        content="Contacto, Agencia de Marketing Digital, Consultoría, Servicios de Marketing, Diseño Web, SEO, Publicidad Online" />
+    <meta name="author" content="Morgan Digital Marketing" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contáctanos | Morgan Digital Marketing" />
+    <meta property="og:description"
+        content="¿Tienes un proyecto en mente? Contáctanos y trabajemos juntos para hacer crecer tu marca." />
+    <meta property="og:image" content="https://tusitio.com/img/contacto-og.jpg" />
+    <meta property="og:url" content="https://tusitio.com/contactanos.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Morgan Digital Marketing" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contáctanos | Morgan Digital Marketing" />
+    <meta name="twitter:description"
+        content="¿Listo para impulsar tu negocio con estrategias de marketing digital? Escríbenos." />
+    <meta name="twitter:image" content="https://tusitio.com/img/contacto-og.jpg" />
+    <meta name="twitter:site" content="@MorganMarketing" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="google-site-verification" content="TU_CODIGO_VERIFICACION" />
+
+    <!-- Microdatos básicos -->
+    <meta itemprop="name" content="Morgan Digital Marketing - Contacto" />
+    <meta itemprop="description"
+        content="Formulario de contacto para conectar con la agencia de marketing digital Morgan." />
+    <meta itemprop="image" content="https://tusitio.com/img/contacto-og.jpg" />
+
+    <link rel="stylesheet" href="/Public/style.css" />
+</head>
+
+<body itemscope itemtype="https://schema.org/WebPage">
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="/Src/Logo/logo.png" alt="Logotipo de Morgan Digital Marketing" />
+            </a>
+        </div>
+        <nav role="navigation" aria-label="Menú principal">
+            <ul>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <article class="hero__text">
+                <h1>Hablemos de tu proyecto</h1>
+                <h2>¿Listo para llevar tu marca al siguiente nivel?</h2>
+                <p>Completa el formulario y uno de nuestros expertos se pondrá en contacto contigo.</p>
+            </article>
+            <article class="hero__image">
+                <img src="/Src/Imagenes/seguiridad-confianza.jpg" alt="Conexión digital" />
+            </article>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Contáctanos</h2>
+            <form class="contact-form" action="enviar.php" method="POST">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" />
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
