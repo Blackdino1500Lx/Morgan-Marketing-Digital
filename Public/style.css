@@ -398,6 +398,9 @@ button:hover {
     .hero-img{
         margin-buttom: 15rem;
     }
+    .hero_index{
+        max-height: 2000px;
+    }
 
     .wws {
         flex-direction: column;
