@@ -395,6 +395,9 @@ button:hover {
         max-width: 70vw;
         margin-top: 1rem;
     }
+    .hero-img{
+        margin-buttom:5rem;
+    }
 
     .wws {
         flex-direction: column;
