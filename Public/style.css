@@ -393,7 +393,7 @@ button:hover {
     }
     .hero__image img {
         max-width: 60vw;
-        height: auto;
+        height: 40vh;
         margin-top: 1rem;
     }
 
