@@ -333,6 +333,62 @@ button:hover {
     border-radius: 2px;
     transition: 0.3s;
 }
+/* Footer simple */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+footer nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+footer nav a:hover {
+    color: var(--gold);
+}
+
+.footer__social {
+    margin-bottom: 1rem;
+}
+
+.footer__social a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    transition: transform 0.3s;
+}
+
+.footer__social a:hover {
+    transform: scale(1.2);
+}
+
+.footer__social img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+footer p {
+    font-size: 1rem;
+    color: var(--gray);
+    margin-top: 1rem;
+}
+
+
 /* Responsive para móviles */
 @media (max-width: 768px) {
      .nav-toggle-label {
@@ -421,5 +477,13 @@ button:hover {
     .contact-form {
         width: 100%;
         padding: 0 1rem;
+    }
+     footer nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .footer__social img {
+        width: 28px;
+        height: 28px;
     }
 }
